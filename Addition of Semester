@@ -1,0 +1,38 @@
+public class ADDITION {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int SEMESTER_1=96;
+		int SEMESTER_2=94;
+		int SEMESTER_3=87;
+		int SEMESTER_4=90;
+		int SEMESTER_5=78;
+		int SEMESTER_6=82;
+		int SEMESTER_7=99;
+		int SEMESTER_8=80;
+		int total_marks=SEMESTER_1+SEMESTER_2+SEMESTER_3+SEMESTER_4+SEMESTER_5+SEMESTER_6+SEMESTER_7+SEMESTER_8;
+		String name="JOHN BERNAT SHAW";
+		String department="AUTOMATION ENGINEERING";
+		String stream="B.E.";
+		String roll_no="17AUTO5462";
+		String college="UNIVERSITY OF ENGINEERING,USA";
+		System.out.println("**********CONSOLIDATED MARKSHEET**********");
+		System.out.println("NAME OF THE STUDENT: "+name);
+		System.out.println("STREAM AND DEPARTMENT: "+stream+department);
+		System.out.println("ROLL.NO: "+roll_no);
+		System.out.println("UNIVERSITY: "+college);
+		System.out.println("***MARKS SCORED IN EACH SEMESTER AS FOLLOWS***");
+		System.out.println("SEMESTER 1= "+SEMESTER_1);
+		System.out.println("SEMESTER 2= "+SEMESTER_2);
+		System.out.println("SEMESTER 3= "+SEMESTER_3);
+		System.out.println("SEMESTER 4= "+SEMESTER_4);
+		System.out.println("SEMESTER 5= "+SEMESTER_5);
+		System.out.println("SEMESTER 6= "+SEMESTER_6);
+		System.out.println("SEMESTER 7= "+SEMESTER_7);
+		System.out.println("SEMESTER 8= "+SEMESTER_8);
+		System.out.println("TOTAL MARKS SCORED OUT OF 800 IS "+total_marks);
+		System.out.println("**********END OF STATEMENT**********");
+
+	}
+
+}
